@@ -60,7 +60,7 @@ export async function GET(req: NextRequest) {
 
   const allText =
     name + headline + g1 + g2 + g3 +
-    "口コミ要約カード良い点review-card.vercel.app★" + rating +
+    "レビューホンネ良い点review-card.vercel.app★" + rating +
     "IndieJP012345689.";
 
   const fonts: { name: string; data: ArrayBuffer; weight: 700; style: "normal" }[] = [];
@@ -109,7 +109,7 @@ export async function GET(req: NextRequest) {
               letterSpacing: "0.12em",
             }}
           >
-            <span>口コミ要約カード</span>
+            <span>レビューホンネ</span>
             <span style={{ color: C.vermilion }}>IndieJP</span>
           </div>
 
@@ -187,7 +187,7 @@ export async function GET(req: NextRequest) {
               color: C.inkFaint,
             }}
           >
-            口コミ要約カード | review-card.vercel.app
+            レビューホンネ | reviewhonne.vercel.app
           </div>
         </div>
       </div>

@@ -125,10 +125,10 @@ export default function Home() {
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "36px" }}>
           <h1 style={{ fontSize: "26px", fontWeight: 700, color: C.ink, letterSpacing: "0.06em", margin: 0 }}>
-            口コミ要約カード
+            レビューホンネ
           </h1>
           <p style={{ marginTop: "8px", fontSize: "14px", color: C.inkFaint, lineHeight: 1.6 }}>
-            Google マップの口コミを AI で要約して X にシェア
+            お店の口コミをAIが本音で要約します
           </p>
           <p style={{ marginTop: "4px", fontSize: "12px", color: C.inkFaint }}>
             by <span style={{ color: C.vermilion, fontWeight: 700 }}>IndieJP</span>
@@ -401,7 +401,7 @@ export default function Home() {
 
         {/* Footer */}
         <div style={{ textAlign: "center", fontSize: "12px", color: C.inkFaint, paddingTop: "16px", borderTop: `1px solid ${C.rule}` }}>
-          口コミ要約カード — powered by Claude & Google Maps
+          reviewhonne.vercel.app — powered by Claude & Google Maps
         </div>
       </div>
     </main>

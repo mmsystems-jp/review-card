@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "口コミ要約カード | IndieJP",
-  description: "Google マップの口コミを AI で要約して X にシェア。店名を入力するだけで瞬時に要約カードを生成。",
+  title: "レビューホンネ | IndieJP",
+  description: "お店の口コミをAIが読んで本音を1枚のカードにまとめます。Google マップの URL か店名を入力するだけ。",
   openGraph: {
-    title: "口コミ要約カード | IndieJP",
-    description: "Google マップの口コミを AI で要約して X にシェア",
+    title: "レビューホンネ | IndieJP",
+    description: "お店の口コミをAIが読んで本音を1枚のカードにまとめます。",
     type: "website",
+    images: ["https://reviewhonne.vercel.app/api/og?hero=1"],
   },
 };
 
